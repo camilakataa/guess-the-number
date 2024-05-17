@@ -1,0 +1,122 @@
+:root {
+    --green: #5ed68a;
+    --blue: #1ea6c8;
+    --background: #fafafa;
+    --gradient-1: #343e63;
+    --gradient-2: #2a3352;
+  }
+  
+  html {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  body {
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    background: radial-gradient(var(--gradient1), var(--gradient2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    text-align: center;
+    background: var(--background);
+    border: solid var(--blue);
+    border-width: 8px;
+    box-shadow: 16px 21px 8px 5px rgba(0,0,0,0.1);
+    height: 450px;
+    width: 320px;
+    border-radius: 2rem;
+    color: #1f2933;
+    padding: 4rem;
+    margin: 1rem;
+  }
+  
+  h2 {
+    font-size: 2.6rem;
+    margin: 1rem;
+  }
+
+  #gameInteraction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+    background: var(--blue);
+    padding: 1.6rem 2rem;
+    border-radius: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  #guessButton {
+    height: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #newGameButton {
+    margin: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: brown;
+  }
+  
+  input {
+    border: 2px solid lightgray;
+    background: transparent;
+    margin: 1rem;
+    padding: 1rem 0;
+    width: 70%;
+    text-align: center;
+    font-size: 1.6rem;
+    height: 1.2rem;
+  }
+
+  .stats {
+    margin: 1rem;
+    font-size: 1.6rem;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin: .6rem;
+    text-align: left;
+  }
+
+  .info span {
+    text-align: right;
+  }
+  
+  @media (max-width: 425px) {
+    main {
+      padding: 2rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.6rem;
+    }
+    .stats {
+      font-size: 1.4rem;
+    }
+    input {
+      font-size: 1.4rem;
+    }
+  }
