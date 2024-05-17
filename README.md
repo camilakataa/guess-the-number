@@ -19,6 +19,7 @@ The objective of the game is to guess a random computer number between 1 and 100
 ## Link
 
 This is the link to see the project: <br>
+https://camilakataa.github.io/guess-the-number/
 
 
 ## Screenshot
