@@ -1,4 +1,4 @@
-# Guess The Number
+# <img src="./src/images/controle-de-video-game.png"> Guess The Number
 
 This is a simple and engaging Game APP to guess a random number. 
 
