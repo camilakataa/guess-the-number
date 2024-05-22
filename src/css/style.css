@@ -13,8 +13,8 @@
   }
   
   body {
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
     background: radial-gradient(var(--gradient1), var(--gradient2));
     display: flex;
@@ -28,11 +28,11 @@
     border: solid var(--blue);
     border-width: 8px;
     box-shadow: 16px 21px 8px 5px rgba(0,0,0,0.1);
-    height: 450px;
+    height: 400px;
     width: 320px;
     border-radius: 2rem;
     color: #1f2933;
-    padding: 4rem;
+    padding: 3rem;
     margin: 1rem;
   }
   
@@ -66,12 +66,13 @@
   }
 
   #newGameButton {
-    margin: 2rem;
+    margin: 1rem;
   }
   
   h3 {
     font-size: 1.8rem;
     color: brown;
+    margin: 1rem;
   }
   
   input {
