@@ -64,5 +64,3 @@ function updateScreen() {
     attempts.innerHTML = userAttempts
     guesses.innerHTML = userGuesses
 }
-
-console.log(computerNumber)
